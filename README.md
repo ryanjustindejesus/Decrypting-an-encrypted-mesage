@@ -44,8 +44,8 @@ In this task, I found a hidden file in my home directory and decrypt the Caesar 
 <h2>Task 3: Description </h2>
 In this task, I used the command revealed in .leftshift3 to decrypt a file and recovered my data so I can read the message it contains.
  <br/> <br/>
-(1) First, I used the command "openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute" to <br/>
-(2) Then, I used the command "ls" to list the contents of my current working directory again. <br/>
+(1) First, I used the command "openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute" to <br/> <br />
+(2) Then, I used the command "ls" to list the contents of my current working directory again. <br/> <br />
 (3) Finally, I used the command "cat Q1.recovered" to list the contentsof the Q1.recovered file.  
 <br/> <br/> <p align="center">
 <img src="https://imgur.com/Epd4dMO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
